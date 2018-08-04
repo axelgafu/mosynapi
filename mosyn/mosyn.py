@@ -16,11 +16,11 @@ import nltk
 import codecs
 import os.path as path
 
-from util.io import FileInput
-from util.io import FileOutput
-from util.io import SystemInput
-from util.io import SystemOutput
-from util.events import EventHook
+from .util.io import FileInput
+from .util.io import FileOutput
+from .util.io import SystemInput
+from .util.io import SystemOutput
+from .util.events import EventHook
 
 
 class MorphologicalAnalysis:
